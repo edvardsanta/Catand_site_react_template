@@ -24,7 +24,34 @@
 	font-size: 2.25rem;
 	padding-right: 75px;
 }
-
+@media screen and (max-width: 767px) 
+{
+  #logo
+  {
+   /*
+    width: 150px;
+    padding-right: 50px;
+    background-color: red;*/
+    transform: scale(0);
+  }
+  .animation
+  {
+    width: 4em;
+    position: static;
+    /*background-color: yellow;*/
+  }
+  /*
+  .header-logo 
+  {
+   position: relative;
+    padding-right:  
+    width:  -5px;	
+    right: 15px;
+    box-sizing: border-box;
+   background-color: red;
+  }
+  */
+}
 /*standard tags*/
 a 
 {
