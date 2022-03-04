@@ -6,7 +6,18 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+form
+{
+  border: 2px solid red;
+}
+input
+{
+  width: 40%;
+}
+input:focus
+{
+  background-color: lightblue;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
